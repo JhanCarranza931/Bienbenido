@@ -1,0 +1,267 @@
+/*Navegador*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(31,74,79,1) 50%, rgba(0,0,0,1) 93%);
+    font-family: sans-serif;
+    width: 100%;
+    
+    
+    
+    
+}
+header{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0.4009978991596639) 50%, rgba(0,0,0,0.5690651260504201) 93%);
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    min-width: 100%;
+    
+    
+}
+#icon{
+    width: 120px;
+    max-width: 1200px;
+    min-width: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 70px;
+}
+.nav .menu{
+    display: flex;
+    list-style: none;
+}
+.nav .menu .item{
+    font-size: 15px;
+    margin: 0 30px;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav .menu .link{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav .menu .link:hover{
+    background: rgb(152,152,152);
+background: linear-gradient(90deg, rgba(152,152,152,0.4066001400560224) 12%, rgba(138,138,138,0.39539565826330536) 52%, rgba(191,191,191,0.4682247899159664) 92%);
+}
+#bienbenida{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    margin-bottom: 60px;
+    
+}
+.bienbenido #bienbenida{
+    height: 140px;
+    width: 100%;
+    background: rgba(182, 233, 235, 0.411);
+    float: inline-end;
+    
+}
+div .bienbenido{
+    padding-top: 80px;
+}
+.subtitulo{
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+#leng{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+
+}
+#contenido{
+    width: 70%;
+    margin: 0.5em auto;
+    background: transparent;
+    margin-left: 20px;
+    text-justify: auto;
+    
+    
+}
+
+#contenido #list #leng{
+    list-style: none;
+    padding-top: 10px;
+}
+.parrafo{
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-family:sans-serif ;
+}
+#list{
+    padding-bottom: 80px;
+}
+#contenido div img{
+   float: right;
+    width: 250px;
+    margin-right: 200px;
+    
+}
+/*:::::::Pie de Pagina::::::::::::*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    margin-top: 30px;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box .nav .item{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    margin-left: 80px;
+    text-decoration: none;
+    transition: all 300ms ease;
+    
+}
+.pie-pagina .grupo-1 .box .nav .item:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+    width: 90%;
+   
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+
+}
+
+}
+@media screen and (max-width:800px){
+    #icon{
+        width: 100px;
+        
+    }
+    header{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(0,0,0,0.4009978991596639) 50%, rgba(0,0,0,0.5690651260504201) 93%);
+        height: 80px;
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        min-width: 290px;
+        
+        
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 10px;
+        
+    }
+   
+    .nav .menu{
+        display:block;
+        list-style: none;
+    }
+    .nav .menu .item{
+        font-size: 10px;
+        margin: 0 1px;
+        line-height: 15px;
+        text-transform: uppercase;
+        width:max-content;
+    }
+    .nav .menu .link{
+        padding: 1px 8px;
+        border-radius: 5px;
+    }
+    /*-----------------AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA---------------------*/
+    #bienbenida{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        margin-bottom: 60px;
+        
+    }
+    .bienbenido #bienbenida{
+        height: 90px;
+        width: 100%;
+        background: rgba(182, 233, 235, 0.411);
+        float: right;
+        
+    }
+    div .bienbenido{
+        padding-top: 80px;
+    }
+    #contenido div img{
+        float: right;
+         width: 250px;
+         margin-right:20px;
+         
+     }
+    
+}
+
+
